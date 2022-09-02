@@ -1,0 +1,137 @@
+.main-content{
+    max-width: 1000px;
+    max-height: 1000px;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    justify-content: center;
+    background-color: black;
+    padding-left: 15%;
+}
+.left-section{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: gray;
+
+}
+.left-content{
+    padding: 1rem;
+}
+.right-section{
+    min-height: 1000px;
+    max-height: none;
+    max-width: 90%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: aquamarine;
+    
+}
+.profile-image{
+    display: block;
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 30%;
+    margin: auto;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem;
+    letter-spacing:0.02px;
+    text-align: center;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+
+}
+.social-media{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    color: darkblue;
+} 
+a:hover{
+    color: black;
+} 
+.contact-details{
+    list-style-type: none;
+}
+.cd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.skills-title{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#p1{
+    height: 4px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+progress::-moz-progress-bar { background:white; }
+progress::-webkit-progress-value { background: white; }
+progress { color: white; }
+h3{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.right-main-content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.right-title{
+ font-size: 1.2rem;
+ font-weight: 700;
+
+ letter-spacing: 1px;
+ margin: 0.5rem;
+}
+.sec1{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    
+}
+.c2{
+    padding-left: 3rem;
+}
+.aboutsect{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 674px){
+    .main-content{
+     display: flex;
+     flex-direction: column;
+     max-height: none;
+     max-width: none;
+     padding-left: 0;
+    }
+    .right-section{
+        max-width: 100%;
+        max-height: none;
+    }
+
+    
+    
+}
